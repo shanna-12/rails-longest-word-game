@@ -8,3 +8,27 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+ body {
+  font-family: Roboto;
+  font-weight: 20px;
+  padding: 0 24px;
+}
+
+.letters{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.letter-tile {
+  display: inline-block;
+  background-color: #39a0e6;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  border: solid 2px #2782be;
+  box-shadow: 5px 5px 5px rgb(201, 200, 200);
+
+}
